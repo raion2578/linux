@@ -32,52 +32,53 @@
 5.13.0-28-generic версия ядра <br />
 SMP — ядро Linux поддерживает многоядерные и многопроцессорные системы <br />
 x86_64 — говорит о том, что система x64 битная <br />
+Размер hdd
 df -H <br />
 
 Filesystem      Size  Used Avail Use% Mounted on <br />
-udev            1.5G     0  1.5G   0% /dev
-tmpfs           302M  1.9M  300M   1% /run
-/dev/sda5        53G   35G   16G  69% /
-tmpfs           1.6G     0  1.6G   0% /dev/shm
-tmpfs           5.3M  4.1k  5.3M   1% /run/lock
-tmpfs           1.6G     0  1.6G   0% /sys/fs/cgroup
-/dev/loop0      132k  132k     0 100% /snap/bare/5
-/dev/loop2      116M  116M     0 100% /snap/core/12603
-/dev/loop1      105M  105M     0 100% /snap/core/11993
-/dev/loop3       59M   59M     0 100% /snap/core18/2284
-/dev/loop4       66M   66M     0 100% /snap/core20/1328
-/dev/loop5      514M  514M     0 100% /snap/datagrip/129
-/dev/loop6      261M  261M     0 100% /snap/gnome-3-38-2004/99
-/dev/loop7      2.1M  2.1M     0 100% /snap/serve/170
-/dev/loop8      261M  261M     0 100% /snap/gnome-3-38-2004/87
-/dev/loop9       69M   69M     0 100% /snap/gtk-common-themes/1515
-/dev/loop10      57M   57M     0 100% /snap/snap-store/558
-/dev/loop11     230M  230M     0 100% /snap/gnome-3-34-1804/72
-/dev/loop12      69M   69M     0 100% /snap/gtk-common-themes/1519
-/dev/loop13      66M   66M     0 100% /snap/core20/1270
-/dev/loop14     311M  311M     0 100% /snap/vlc/2344
-/dev/loop15     6.6M  6.6M     0 100% /snap/curl/484
-/dev/loop16     514M  514M     0 100% /snap/datagrip/128
-/dev/loop17     230M  230M     0 100% /snap/gnome-3-34-1804/77
-/dev/loop18     177M  177M     0 100% /snap/postman/149
-/dev/loop19     564M  564M     0 100% /snap/webstorm/243
-/dev/loop20     564M  564M     0 100% /snap/webstorm/239
-/dev/loop21     340M  340M     0 100% /snap/telegram-desktop/3530
-/dev/loop22     6.7M  6.7M     0 100% /snap/curl/623
-/dev/loop23     340M  340M     0 100% /snap/telegram-desktop/3544
-/dev/loop24     177M  177M     0 100% /snap/postman/148
-/dev/loop25      54M   54M     0 100% /snap/snap-store/547
-/dev/loop26      59M   59M     0 100% /snap/core18/2253
-/dev/sda1       536M  4.1k  536M   1% /boot/efi
-tmpfs           302M   29k  302M   1% /run/user/1000
-/dev/loop29      46M   46M     0 100% /snap/snapd/14978
+udev            1.5G     0  1.5G   0% /dev <br />
+tmpfs           302M  1.9M  300M   1% /run <br />
+/dev/sda5        53G   35G   16G  69% / <br />
+tmpfs           1.6G     0  1.6G   0% /dev/shm <br />
+tmpfs           5.3M  4.1k  5.3M   1% /run/lock <br />
+tmpfs           1.6G     0  1.6G   0% /sys/fs/cgroup <br />
+/dev/loop0      132k  132k     0 100% /snap/bare/5 <br />
+/dev/loop2      116M  116M     0 100% /snap/core/12603 <br />
+/dev/loop1      105M  105M     0 100% /snap/core/11993 <br />
+/dev/loop3       59M   59M     0 100% /snap/core18/2284 <br />
+/dev/loop4       66M   66M     0 100% /snap/core20/1328 <br />
+/dev/loop5      514M  514M     0 100% /snap/datagrip/129 <br />
+/dev/loop6      261M  261M     0 100% /snap/gnome-3-38-2004/99 <br />
+/dev/loop7      2.1M  2.1M     0 100% /snap/serve/170 <br />
+/dev/loop8      261M  261M     0 100% /snap/gnome-3-38-2004/87 <br />
+/dev/loop9       69M   69M     0 100% /snap/gtk-common-themes/1515 <br />
+/dev/loop10      57M   57M     0 100% /snap/snap-store/558 <br />
+/dev/loop11     230M  230M     0 100% /snap/gnome-3-34-1804/72 <br />
+/dev/loop12      69M   69M     0 100% /snap/gtk-common-themes/1519 <br />
+/dev/loop13      66M   66M     0 100% /snap/core20/1270 <br />
+/dev/loop14     311M  311M     0 100% /snap/vlc/2344 <br />
+/dev/loop15     6.6M  6.6M     0 100% /snap/curl/484 <br />
+/dev/loop16     514M  514M     0 100% /snap/datagrip/128 <br />
+/dev/loop17     230M  230M     0 100% /snap/gnome-3-34-1804/77 <br />
+/dev/loop18     177M  177M     0 100% /snap/postman/149 <br />
+/dev/loop19     564M  564M     0 100% /snap/webstorm/243 <br />
+/dev/loop20     564M  564M     0 100% /snap/webstorm/239 <br />
+/dev/loop21     340M  340M     0 100% /snap/telegram-desktop/3530 <br />
+/dev/loop22     6.7M  6.7M     0 100% /snap/curl/623 <br />
+/dev/loop23     340M  340M     0 100% /snap/telegram-desktop/3544 <br />
+/dev/loop24     177M  177M     0 100% /snap/postman/148 <br />
+/dev/loop25      54M   54M     0 100% /snap/snap-store/547 <br />
+/dev/loop26      59M   59M     0 100% /snap/core18/2253 <br />
+/dev/sda1       536M  4.1k  536M   1% /boot/efi <br />
+tmpfs           302M   29k  302M   1% /run/user/1000 <br />
+/dev/loop29      46M   46M     0 100% /snap/snapd/14978 <br />
 
-ОЗУ 
-free -h
-             total        used        free      shared  buff/cache   available
-Mem:          2.8Gi       1.3Gi       206Mi       3.0Mi       1.3Gi       1.4Gi
-Swap:         1.3Gi       1.0Mi       1.3Gi
+ОЗУ  <br />
+free -h <br />
+             total        used        free      shared  buff/cache   available <br />
+Mem:          2.8Gi       1.3Gi       206Mi       3.0Mi       1.3Gi       1.4Gi <br />
+Swap:         1.3Gi       1.0Mi       1.3Gi <br />
 
-Загрузка процессора
-uptime
+Загрузка процессора <br />
+uptime <br />
 20:34:19 up 11 min,  1 user,  load average: 0.41, 0.26, 0.22
