@@ -7,4 +7,4 @@
 5. Биты SUID и SGID для файла somecommand позволяет установить команда - chmod 6755 somecommand <br />
 6. Какая командf приостановит процессы с именем tar - killall -s STOP tar <br />
 
-Программа файл task6.py
+Программа файл task6.py https://github.com/raion2578/linux/blob/main/task6.py
