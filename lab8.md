@@ -27,8 +27,12 @@ mount
   
  Практика
  1. продемонстрировать работу at по запуску задачи записи в файл произвольной строки
- 
+ ![image](https://raw.githubusercontent.com/raion2578/linux/main/1.png)
 
 
  
  2.продемонстрировать работу cron по запуску задачи записи в файл произвольной строки
+ ![image](https://raw.githubusercontent.com/raion2578/linux/main/2.png)
+
+ ![image](https://raw.githubusercontent.com/raion2578/linux/main/3.png)
+ 
